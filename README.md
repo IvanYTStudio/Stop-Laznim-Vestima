@@ -2,7 +2,6 @@
 
 Ekstenzija za Google Chrome koja automatski uklanja rezultate sa neželjenih veb sajtova.
 Ekstenziju možete instalirati [ovde](https://chromewebstore.google.com/detail/stop-la%C5%BEnim-vestima/mhbjpjoamneehbldleijndgggibaabka)
-<a href="https://chromewebstore.google.com/detail/stop-la%C5%BEnim-vestima/mhbjpjoamneehbldleijndgggibaabka" target="_blank">Test</a>
 
 Upotreba:
 1. Unesite sajtove koje želite da blokirate: Koristite iskačući prozor ekstenzije da dodate sajtove koje želite da uklonite iz svojih pretraga.
