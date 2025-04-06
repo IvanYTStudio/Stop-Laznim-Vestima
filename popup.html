@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP lažnim vestima!</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 280px;
+            padding: 20px;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: #222;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h4 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-weight: 600;
+            color: #444;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            background-color: #fff;
+        }
+        input[type="text"] {
+            width: calc(100% - 16px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+        button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 500;
+            transition: background-color 0.3s ease-in-out;
+        }
+        #add-site {
+            background-color: #28a745;
+            color: white;
+        }
+        #add-site:hover {
+            background-color: #218838;
+        }
+        #toggle-btn {
+            background-color: #dc3545;
+            color: white;
+            margin-top: 15px;
+        }
+        #toggle-btn:hover {
+            background-color: #c82333;
+        }
+        li {
+            padding: 12px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.95em;
+            color: #555;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .remove-btn {
+            color: #dc3545;
+            cursor: pointer;
+            font-size: 0.9em;
+            opacity: 0.7;
+            transition: opacity 0.3s ease-in-out;
+        }
+        .remove-btn:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h4>Blokirani Sajtovi</h4>
+    <ul id="blocked-sites-list"></ul>
+    <input type="text" id="new-site" placeholder="Unesite sajt koji želite da blokirate">
+    <button id="add-site">Dodaj Sajt</button>
+    <button id="toggle-btn">Isključi Filter</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
